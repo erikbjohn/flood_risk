@@ -4,5 +4,6 @@ get_crime_data <- function(){
     file_list <- list.files('data/raw/crime', recursive = TRUE, pattern='.txt', full.names = TRUE)
     l_files <- lapply(file_list, fread)
     # OH MY, SO MUCH CLEANING!
+    # TEST THE SLACK INTEGRATION
   }
 }
